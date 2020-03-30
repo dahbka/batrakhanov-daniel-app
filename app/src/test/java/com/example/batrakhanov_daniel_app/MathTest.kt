@@ -10,4 +10,10 @@ class MathTest {
      i+=1
      assertEquals(2,i)
  }
+    @Test
+    fun divisionTest () {
+        var i=4
+        i /= 2
+        assertEquals(2,i)
+    }
 }
