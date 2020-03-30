@@ -23,4 +23,10 @@ class MathTest {
         i *= 2
         assertEquals(4,i)
     }
+    @Test
+    fun subtractionTest () {
+        var i=2
+        i -= 1
+        assertEquals(1,i)
+    }
 }
