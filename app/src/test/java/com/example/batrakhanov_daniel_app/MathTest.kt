@@ -16,4 +16,11 @@ class MathTest {
         i /= 2
         assertEquals(2,i)
     }
+
+    @Test
+    fun multiplicationTest () {
+        var i=2
+        i *= 2
+        assertEquals(4,i)
+    }
 }
